@@ -42,13 +42,13 @@ project "ambro"
         }
 
     filter "configurations:Debug"
-        defines "NT_DEBUG"
+        defines "amb_DEBUG"
         symbols "On"
     filter "configurations:Release"
-        defines "NT_RELEASE"
+        defines "amb_RELEASE"
         optimize "On"
     filter "configurations:Dist"
-        defines "NT_DIST"
+        defines "amb_DIST"
         optimize "On"
 
 project "Sandbox"
