@@ -13,9 +13,9 @@
     <ClInclude Include="src\ambro\Core\Core.hpp">
       <Filter>ambro\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\ambro\App\Application.h" />
+    <ClInclude Include="src\ambro\App\application.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ambro\App\Application.cpp" />
+    <ClCompile Include="src\ambro\App\application.cpp" />
   </ItemGroup>
 </Project>

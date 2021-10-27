@@ -143,12 +143,12 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\ambro\App\Application.h" />
+    <ClInclude Include="src\ambro\App\application.h" />
     <ClInclude Include="src\ambro.hpp" />
     <ClInclude Include="src\ambro\Core\Core.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ambro\App\Application.cpp" />
+    <ClCompile Include="src\ambro\App\application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
