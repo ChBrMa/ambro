@@ -34,8 +34,8 @@ project "ambro"
         systemversion "latest"
 
         defines {
-            "RN_BUILD_DLL",
-            "RN_PLAT_WIN"
+            "amb_BUILD_DLL",
+            "amb_PLAT_WIN"
         }
         postbuildcommands{
             ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox")
